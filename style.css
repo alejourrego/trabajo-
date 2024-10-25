@@ -1,0 +1,61 @@
+/* el body es donde esta lo fundamental de la pagina principalmente */
+body {
+    /* el font-family es la letra general */
+    font-family: sans-serif;
+    /* margin es el que establece el borde al exterior */
+    margin: 0;
+}
+
+/* selector .contenedor donde van las tarjetas*/
+.contenedor {
+    /*  display */
+    display: flex; 
+    /* flex-wrap dice si los elementos hijos quedan en la misma linea o pueden cambiar*/
+    flex-wrap: wrap; 
+    /* justify-content define la distribucion de espacio*/
+    justify-content: space-around; 
+    /* padding da el espacio alrededor del elemento */
+    padding: 20px;
+}
+
+/* selector .tarjeta aqui dentro va el estilo de cada tarjeta */
+.tarjeta {
+    /*width es el ancho del elemento */
+    width: 300px; 
+    /* margin es el que establece el borde al exterior */
+    margin: 10px; 
+    /* border define los bordos del elemento */
+    border: 1px solid #ccc; 
+    /* padding da el espacio alrededor del elemento */
+    padding: 20px; 
+    /* border-radius da el redondeo de la esquina */
+    border-radius: 5px; 
+    /* box-shadow da las sombras del marco*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+/* selector .tarjeta img aqui va el estilo de tarjeta de la imagen*/
+.tarjeta img {
+    /* width es el ancho del elemento */
+    width: 100%; 
+    /* height es la altura del elemento */
+    height: auto; 
+    /* display */
+    display: block; 
+    /* border-radius da el redondeo de la esquina */
+    border-radius: 5px 5px 0 0; 
+}
+
+/* selector .tarjeta h3 aqui va el estilo de la tarjeta de texto*/
+.tarjeta h3 {
+    /* margin-top da el margen superior */
+    margin-top: 10px; 
+}
+
+/* selector .tarjeta p aqui va el estilo de la tarjeta de parrafo*/
+.tarjeta p {
+    /* font-size es el tamaño especifico de la letra */
+    font-size: 0.9em; 
+    /* lene-height es el que da las distancias entre las lineas de texto   */
+    line-height: 1.5; 
+}
