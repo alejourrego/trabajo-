@@ -14,7 +14,7 @@ body {
     flex-wrap: wrap; 
     /* justify-content define la distribucion de espacio*/
     justify-content: space-around; 
-    /* padding da el espacio alrededor del elemento */
+    /* padding da el espacio alrededor del elemento   */
     padding: 20px;
 }
 
